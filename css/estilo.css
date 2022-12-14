@@ -1,0 +1,25 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+    text-align: center;
+    color: #00008b;
+    margin: 30px 0 50px;
+}
+
+.galeria{
+    margin: 20px 80px;
+}
+
+.galeria img{
+    width: 230px;
+    padding: 5px;
+    filter: grayscale(100%);
+    transition: 1s;
+}
+
+.galeria img:hover{
+    filter: grayscale(0);
+    transform: scale(1.1);
+}
